@@ -28,5 +28,28 @@ public class BinaryGap {
 	/**
 	 * Find longest sequence of zeros in binary representation of an integer.
 	 */
+	
+	public int findLongestSeqOfZeros(int num) {
+		int longestBinaryGap = 0;
+	    int currentBinaryGap = -1;
+	    
+	    int val = num;
+	    
+	    while (val != 0) {
+	        if ((val & 1) == 1) {
+	            if (longestBinaryGap < currentBinaryGap) {
+	                longestBinaryGap = currentBinaryGap;
+	            }
+	            
+	            currentBinaryGap = 0;
+	        } else if (currentBinaryGap != -1) {
+	            ++currentBinaryGap;
+	        }
+	        
+	        val = val >> 1;
+	    }
+	    
+	    return longestBinaryGap;
+	}
 
 }

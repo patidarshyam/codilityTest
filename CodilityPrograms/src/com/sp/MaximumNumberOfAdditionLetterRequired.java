@@ -27,12 +27,8 @@ public class MaximumNumberOfAdditionLetterRequired {
 
 	public static void main(String[] args) {
 		String s = "bbbaaabbb";
-		String s1 = "bbbab";
-		String s2 = "babaa";
-		
+		System.out.println("Test......");
 		solution(s);
-		solution(s1);
-		solution(s2);
 	}
 
 	static int solution(String S) {
