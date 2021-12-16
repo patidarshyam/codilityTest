@@ -1,5 +1,5 @@
-# codilityTest
-#MaximumNumberOfAdditionLetterRequired 
+# Codility Test
+# MaximumNumberOfAdditionLetterRequired 
  * You are given a string S consisting of letters 'a' and/or 'b'. A block is a
  * consecutive fragment of S composed of the same letters and surrounded by
  * different letters or string endings. For example, S = "abbabbaaa" has five
