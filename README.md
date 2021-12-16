@@ -16,8 +16,8 @@
  * of equal lengths. Write an efficient algorithm for the following assumptions:
  * Test Output • Nis an integer within the range [1..40,000); • string S
  * consists only of the characters "a" and/or "b". 
- 
- #BinaryGap 
+
+# BinaryGap 
 A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
 For example, number 9 has binary representation 1001 and contains a binary gap of length 2. The number 529 has binary representation 1000010001 and contains two binary gaps: one of length 4 and one of length 3. The number 20 has binary representation 10100 and contains one binary gap of length 1. The number 15 has binary representation 1111 and has no binary gaps.
 Write a function:
@@ -30,7 +30,7 @@ Complexity:
 expected worst-case time complexity is O(log(N));
 expected worst-case space complexity is O(1).
 
-#CyclicRotation
+# CyclicRotation
 A zero-indexed array A consisting of N integers is given. Rotation of the array means that each element is shifted right by one index, and the last element of the array is also moved to the first place.
 
 For example, the rotation of array A = [3, 8, 9, 7, 6] is [6, 3, 8, 9, 7]. The goal is to rotate array A K times; that is, each element of A will be shifted to the right by K indexes.
@@ -49,7 +49,7 @@ N and K are integers within the range [0..100];
 each element of array A is an integer within the range [−1,000..1,000].
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-#OddOccurencesInArray
+# OddOccurencesInArray
 A non-empty zero-indexed array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.
 
 For example, in array A such that:
@@ -102,7 +102,7 @@ Complexity:
         expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 Elements of input arrays can be modified.
 
-#MaxProductOfThree
+# MaxProductOfThree
  A non-empty zero-indexed array A consisting of N integers is given. The product of triplet (P, Q, R) equates to A[P] * A[Q] * A[R] (0 ≤ P < Q < R < N).
 
 For example, array A such that:
@@ -151,7 +151,7 @@ Complexity:
 
 Elements of input arrays can be modified.
 
-#NumberOfDiscIntersections
+# NumberOfDiscIntersections
 We draw N discs on a plane. The discs are numbered from 0 to N − 1. A zero-indexed array A of N non-negative integers, specifying the radiuses of the discs, is given. The J-th disc is drawn with its center at (J, 0) and radius A[J].
 
 We say that the J-th disc and K-th disc intersect if J ≠ K and the J-th and K-th discs have at least one common point (assuming that the discs contain their borders).
@@ -192,7 +192,7 @@ Complexity:
 
 Elements of input arrays can be modified
 
-#Triangle
+# Triangle
 A zero-indexed array A consisting of N integers is given. A triplet (P, Q, R) is triangular if 0 ≤ P < Q < R < N and:
 
         A[P] + A[Q] > A[R],
@@ -236,7 +236,7 @@ Complexity:
 
 Elements of input arrays can be modified.
 
-#FrogJump
+# FrogJump
 A small frog wants to get to the other side of the road. The frog is currently located at position X and wants to get to a position greater than or equal to Y. The small frog always jumps a fixed distance, D.
 
 Count the minimal number of jumps that the small frog must perform to reach its target.
@@ -266,7 +266,7 @@ Complexity:
 expected worst-case time complexity is O(1);
 expected worst-case space complexity is O(1).
 
-#PermMissingElem
+# PermMissingElem
 A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
 
 Your goal is to find that missing element.
