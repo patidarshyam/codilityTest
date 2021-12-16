@@ -1,4 +1,4 @@
-# Codility Test
+# Codility Test with JAVA
 # MaximumNumberOfAdditionLetterRequired 
  * You are given a string S consisting of letters 'a' and/or 'b'. A block is a
  * consecutive fragment of S composed of the same letters and surrounded by
