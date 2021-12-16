@@ -85,7 +85,7 @@ expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 Elements of input arrays can be modified.
 
-#Distinct
+# Distinct
  Write a function
     class Solution { public int solution(int[] A); }
 that, given a zero-indexed array A consisting of N integers, returns the number of distinct values in array A.
